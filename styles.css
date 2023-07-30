@@ -1,0 +1,176 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.mainContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 0 40px;
+}
+.headerLogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    font-size: 24px;
+}
+li:hover {
+    cursor: pointer;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: #f9faf8;
+    gap: 20px;
+}
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.introduction {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    flex: 1;
+    gap: 20px;
+}
+.introTitle {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 24px;
+}
+.introText {
+    width: 600px;
+}
+.introP {
+    font-size: 18px;
+    color: #e5e7e5;
+    margin-bottom: 32px;
+}
+.introButton {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border:none;
+    font-weight: bold;
+    padding: 8px 25px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.imagesNinfos {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    flex: 1;
+}
+.quoteOwner {
+    text-align: end;
+    font-size: 24px;
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 48px 0px;
+}
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    width: 400px;
+}
+.signupButton {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    border-style: solid;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-bottom: 12px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.infoTitle {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.quoteP {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+.logo {
+    display: flex;
+    gap: 10px;
+}
+.logo > p {
+    align-self: center;
+    color: #f9faf8;
+    font-size: 28px;
+}
+.pillar {
+    height: 70px;
+    width: 30px;
+}
+.introImage {
+    width: auto;       
+    height: 280px;
+}
+.philosopherPics {
+    width: 200px;
+    height:200px;
+}
+.randomInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signupP {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
